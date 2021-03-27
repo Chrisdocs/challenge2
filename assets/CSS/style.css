@@ -1,0 +1,112 @@
+/* Global controls */
+* {
+    background: var(--background-primary);
+}
+
+:root {
+    --background-primary: #f8f8ff;
+    --primary-text: #7e8aa1;
+    --text-hover: #ffdac1;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header Section */
+
+header {
+    
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.logo-top {
+    display: flex;
+    justify-content: center;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    color: var(--primary-text);
+    margin: 0px;
+}
+
+.header-title p {
+    font-size: 5vw;
+}
+
+/* Menu Navigation */
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+}
+
+.menu-nav li {
+    padding: 25px;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.menu-nav a {
+    background-color: var(--primary-text);
+    color: var(--text-hover);
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-nav a:hover {
+    background-color: var(--text-hover);
+    color: var(--primary-text);
+}
+
+.menu-nav img {
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.leaf-png {
+    height: 50%;
+    padding-top: 2.5%;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    margin: 0;
+    height: 300px
+}
+
+.section-content {
+    margin: 15%;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    color: var(--primary-text);
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2vh;
+}

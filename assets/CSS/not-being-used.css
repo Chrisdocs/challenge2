@@ -1,0 +1,122 @@
+#dot-graphic {
+    display: block;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.dot {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background-color: #7e8aa1;
+    display: inline-block;
+    margin: 0;
+    border: solid 20px #7e8aa1;
+}
+
+.dot h2 {
+    font-size: 56px;
+    background-color: #7e8aa1;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    color: #ffdac1;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    box-sizing: border-box;
+}
+
+.dot #mock {
+    font-size: 54px;
+    display: inline-block;
+}
+
+#d1 {
+    margin: 5% 20% 5% 0;
+}
+
+#d2 {
+    margin: 5% 0 5% 75%;
+}
+
+#d3 {
+    margin: 5% 20% 5% 0;
+}
+
+#d4 {
+    margin: 5% 0 5% 75%;
+}
+
+#l1 {
+    background-color: #ffdac1;
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transform: rotate(19deg);
+    z-index: 1;
+}
+
+#l1::after {
+        background: inherit;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 50%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        transform: skewY(-1.5deg);
+        transform-origin: 100%;
+        z-index: -1;
+}
+
+#l2 {
+    background-color: #ffdac1;
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transform: rotate(342deg);
+}
+
+#l2::after {
+        background: inherit;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 50%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        transform: skewY(-1.5deg);
+        transform-origin: -50%;
+}
+
+#l3 {
+    background-color: #ffdac1;
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transform: rotate(19deg);
+
+}
+
+#l3::after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
